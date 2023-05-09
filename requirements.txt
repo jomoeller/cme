@@ -1,0 +1,7 @@
+pandas
+numpy
+scipy
+scikit-learn
+sqlite3
+matplotlib
+pickle

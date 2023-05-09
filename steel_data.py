@@ -1,6 +1,5 @@
 import os
 import sqlite3
-import os
 
 basedir = __file__.rsplit(os.sep,maxsplit=1)[0]
 
