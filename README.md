@@ -15,3 +15,4 @@ Then, install the required Python modules, as follows:
     cd /path/to/folder/cme
     pip install -r requirements.txt
     
+Note that a working Python installation is expected to exist on your computer.
