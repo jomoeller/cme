@@ -5,9 +5,9 @@ import pandas as pd
 # The path to the folder where this file is located, i.e. the cme/exercises folder: 
 folder = os.path.dirname(os.path.abspath(__file__))
 
-scaler = pickle.load(open("scaler.pickle", "rb"))
-model_A = pickle.load(open("model_A.pickle", "rb"))
-model_Rm = pickle.load(open("model_Rm.pickle", "rb"))
+scaler = pickle.load(open(folder+os.sep+"scaler.pickle", "rb"))
+model_A = pickle.load(open(folder+os.sep+"model_A.pickle", "rb"))
+model_Rm = pickle.load(open(folder+os.sep+"model_Rm.pickle", "rb"))
 
 def backend(*params, **kwargs): 
     
