@@ -1,5 +1,7 @@
 # Exercises and tutorials for the CME course
 
+Test
+
 Clone this Git repository, as follows
 
     git clone git@github.com:jomoeller/cme.git /path/to/folder/
